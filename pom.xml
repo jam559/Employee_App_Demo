@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>employee_app_demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>employee_app_demo</name>
+	<version>0.0.1-SNAPSHOT</version>
 	<description>Employment Application Demo Project</description>
 	<url/>
 	<licenses>
@@ -53,6 +54,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
